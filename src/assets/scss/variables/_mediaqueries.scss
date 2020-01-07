@@ -1,0 +1,155 @@
+$break-320: 320px;
+$break-360: 360px;
+$break-375: 375px;
+$break-380: 380px;
+$break-400: 400px;
+$break-420: 420px;
+$break-428: 428px;
+$break-450: 450px;
+$break-460: 460px;
+$break-480: 480px;
+$break-520: 520px;
+$break-540: 540px;
+$break-576: 576px;
+$break-600: 600px;
+$break-640: 640px;
+$break-768: 768px;
+$break-992: 992px;
+$break-1000: 1000px;
+$break-1150: 1150px;
+$break-1200: 1200px;
+$break-1300: 1300px;
+$break-1400: 1400px;
+
+@mixin cell320p {
+	@media (min-width: #{$break-320}) {
+		@content;
+	}
+}
+
+@mixin cell360p {
+	@media (min-width: #{$break-360}) {
+		@content;
+	}
+}
+
+@mixin cell375p {
+	@media (min-width: #{$break-375}) {
+		@content;
+	}
+}
+
+@mixin cell380p {
+	@media (min-width: #{$break-380}) {
+		@content;
+	}
+}
+
+@mixin cell400p {
+	@media (min-width: #{$break-400}) {
+		@content;
+	}
+}
+
+@mixin cell420p {
+	@media (min-width: #{$break-420}) {
+		@content;
+	}
+}
+
+@mixin cell428p {
+	@media (min-width: #{$break-428}) {
+		@content;
+	}
+}
+
+@mixin cell450p {
+	@media (min-width: #{$break-450}) {
+		@content;
+	}
+}
+
+@mixin cell460p {
+	@media (min-width: #{$break-460}) {
+		@content;
+	}
+}
+
+@mixin cell480p {
+	@media (min-width: #{$break-480}) {
+		@content;
+	}
+}
+
+@mixin cell520p {
+	@media (min-width: #{$break-520}) {
+		@content;
+	}
+}
+
+@mixin cell540p {
+	@media (min-width: #{$break-540}) {
+		@content;
+	}
+}
+
+@mixin cell576p {
+	@media (min-width: #{$break-576}) {
+		@content;
+	}
+}
+
+@mixin cell600p {
+	@media (min-width: #{$break-600}) {
+		@content;
+	}
+}
+
+@mixin cell640p {
+	@media (min-width: #{$break-640}) {
+		@content;
+	}
+}
+
+@mixin cell768p {
+	@media (min-width: #{$break-768}) {
+		@content;
+	}
+}
+
+@mixin cell992p {
+	@media (min-width: #{$break-992}) {
+		@content;
+	}
+}
+
+@mixin cell1000p {
+	@media (min-width: #{$break-1000}) {
+		@content;
+	}
+}
+
+@mixin cell1150p {
+	@media (min-width: #{$break-1150}) {
+		@content;
+	}
+}
+
+@mixin cell1200p {
+	@media (min-width: #{$break-1200}) {
+		@content;
+	}
+}
+
+@mixin cell1300p {
+	@media (min-width: #{$break-1300}) {
+		@content;
+	}
+}
+
+@mixin cell1400p {
+	@media (min-width: #{$break-1400}) {
+		@content;
+	}
+}
+
